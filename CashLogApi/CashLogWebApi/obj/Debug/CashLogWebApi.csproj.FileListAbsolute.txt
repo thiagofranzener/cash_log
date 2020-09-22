@@ -1,0 +1,2 @@
+C:\Users\bielf\OneDrive\Documentos\GitHub\cash_log\CashLogApi\CashLogWebApi\obj\Debug\CashLogWebApi.csprojAssemblyReference.cache
+C:\Users\bielf\OneDrive\Documentos\GitHub\cash_log\CashLogApi\CashLogWebApi\obj\Debug\CashLogWebApi.csproj.CoreCompileInputs.cache
