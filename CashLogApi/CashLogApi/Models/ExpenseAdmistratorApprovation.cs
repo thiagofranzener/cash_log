@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CashLogApi.Models
+namespace CashLogLib.Models
 {
-    class ExpenseAdmistratorApprovation
+    public partial class ExpenseAdministratorApprovation
     {
+        public int CompanyId { get; set; }
+        public int ExpenseId { get; set; }
+        public ExpenseSituation Situation { get; set; }
+        public double ApprovedCost { get; set; }
+        public string Motive { get; set; }
     }
 }

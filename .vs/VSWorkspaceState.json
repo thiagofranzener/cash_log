@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CashLogApi",
+    "\\CashLogApi\\CashLogApi",
+    "\\CashLogApi\\CashLogApi\\Repositories",
+    "\\CashLogApi\\CashLogWebApi",
+    "\\CashLogApi\\CashLogWebApi\\Classes",
+    "\\CashLogApi\\CashLogWebApi\\ViewModels"
+  ],
+  "SelectedNode": "\\CashLogApi\\CashLogWebApi\\Classes\\TokenAuthenthicator.cs",
+  "PreviewInSolutionExplorer": false
+}

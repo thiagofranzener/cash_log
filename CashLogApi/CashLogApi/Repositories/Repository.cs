@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CashLogApi.Repositories
+namespace CashLogLib.Repositories
 {
-    class Repository
+    public abstract partial class Repository : IDisposable
     {
+        public abstract void Dispose();
     }
 }
