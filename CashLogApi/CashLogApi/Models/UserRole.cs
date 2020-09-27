@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CashLogApi.Models
+namespace CashLogLib.Models
 {
-    class UserRole
+    public enum UserRole
     {
+        None = 0,
+        Administrator = 1,
+        Employee = 2
     }
 }

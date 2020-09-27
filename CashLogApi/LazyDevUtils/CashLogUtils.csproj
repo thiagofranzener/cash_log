@@ -39,5 +39,8 @@
     <Compile Include="Helpers.cs" />
     <Compile Include="Validators.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

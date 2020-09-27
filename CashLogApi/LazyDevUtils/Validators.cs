@@ -1,33 +1,43 @@
 ﻿using System;
 
-namespace CashLogUtils
+namespace CashLogUtils.Validators
 {
-    class Validators
+    public partial class Validators
     {
-        Helpers helper = new Helpers();
+        public Validators()
+        {
+        }
+
         public bool ValidateCpf(string value)
         {
-            if (value == null || value.Length != 11 || !Decimal.TryParse(value, out decimal result)) return false;
+            decimal argresult = default;
+            if (value is null || value.Length != 11 || !decimal.TryParse(value, out argresult))
+                return false;
             return true;
         }
 
         public bool ValidateEmail(string value)
         {
-            if (value == null || !value.Contains("@") || !value.Contains(".")) return false;
+            if (value is null || !value.Contains("@") || !value.Contains("."))
+                return false;
             return true;
         }
 
         public bool ValidateCnpj(string value)
         {
-            if (value == null || value.Length != 14 || !Decimal.TryParse(value, out decimal result)) return false;
+            decimal argresult = default;
+            if (value is null || value.Length != 14 || !decimal.TryParse(value, out argresult))
+                return false;
             return true;
         }
 
         public bool ValidateCep(string value)
         {
-            if (value == null || value.Length != 8 || !helper.IsNumber(value)) return false;
+            Int32 result;
+
+            if (value is null || value.Length != 8 || int.TryParse(value, out result))
+                return false;
             return true;
         }
-
     }
 }
