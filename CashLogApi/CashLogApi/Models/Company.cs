@@ -8,16 +8,16 @@ namespace CashLogApi.Models
 {
     class Company : IEquatable<Company>
     {
-        
-        int _id, _number;
-        string _name, _cnpj, _adress, _complement, _city, _state, _cep;
-        Guid _token;
+
+        private int _id, _number;
+        private string _name, _cnpj, _address, _complement, _city, _state, _cep;
+        private Guid _token;
 
         public int Id { get => _id; set => _id = value; }
         public int Number { get => _number; set => _number = value; }
         public string Name { get => _name; set => _name = value; }
         public string Cnpj { get => _cnpj; set => _cnpj = value; }
-        public string Adress { get => _adress; set => _adress = value; }
+        public string Address { get => _address; set => _address = value; }
         public string Complement { get => _complement; set => _complement = value; }
         public string City { get => _city; set => _city = value; }
         public string State { get => _state; set => _state = value; }

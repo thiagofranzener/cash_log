@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CashLogApi.Models
 {
-    class ExpenseSituation
+    enum ExpenseSituation
     {
+        WaitingApprovation,
+        Approved,
+        Reproved
     }
 }

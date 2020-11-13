@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CashLogApi.Models
 {
-    class UserRole
+    enum UserRole
     {
+        None,
+        Administrator,
+        Employee
     }
 }

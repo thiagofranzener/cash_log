@@ -1,12 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CashLogApi.Repositories
 {
-    class Repository
+    public abstract class Repository : IDisposable
     {
+        public void Dispose()
+        {
+            Dispose(true);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

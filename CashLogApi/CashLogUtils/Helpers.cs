@@ -3,8 +3,22 @@ using System.Collections.Generic;
 
 namespace CashLogUtils
 {
-    class Helpers
+    public class Helpers
     {
+
+        public int ValInt(string value)
+        {
+            int result;
+            try
+            {
+                result = int.Parse(value);
+            }
+            catch
+            {
+                result = 0;
+            }
+            return result;
+        }
 
         public double ValNumber(string value)
         {
@@ -42,11 +56,11 @@ namespace CashLogUtils
             return false;
         }
 
-        public bool IsDateValid(DateTime data)
+        public bool IsDateValid(DateTime date)
         {
-            if (data == null) return false;
-            if (data < new DateTime(1900, 1, 1)) return false;
-            if (data > new DateTime(2400, 1, 1)) return false;
+            if (date == null) return false;
+            if (date < new DateTime(1900, 1, 1)) return false;
+            if (date > new DateTime(2400, 1, 1)) return false;
             return true;
         }
 
