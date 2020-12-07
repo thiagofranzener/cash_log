@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface fabricaTelasTests : XCTestCase
+@interface CashlogTests : XCTestCase
 
 @end
 
-@implementation fabricaTelasTests
+@implementation CashlogTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'fabricaTelas' do
+target 'Cashlog' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'fabricaTelasTests' do
+  target 'CashlogTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'fabricaTelas' do
   end
 end
 
-target 'fabricaTelas-tvOS' do
-  # Pods for fabricaTelas-tvOS
+target 'Cashlog-tvOS' do
+  # Pods for Cashlog-tvOS
 
-  target 'fabricaTelas-tvOSTests' do
+  target 'Cashlog-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "fabricaTelas-tvOS.app"
-               BlueprintName = "fabricaTelas-tvOS"
-               ReferencedContainer = "container:fabricaTelas.xcodeproj">
+               BuildableName = "Cashlog-tvOS.app"
+               BlueprintName = "Cashlog-tvOS"
+               ReferencedContainer = "container:Cashlog.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "fabricaTelas-tvOSTests.xctest"
-               BlueprintName = "fabricaTelas-tvOSTests"
-               ReferencedContainer = "container:fabricaTelas.xcodeproj">
+               BuildableName = "Cashlog-tvOSTests.xctest"
+               BlueprintName = "Cashlog-tvOSTests"
+               ReferencedContainer = "container:Cashlog.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "fabricaTelas-tvOS.app"
-            BlueprintName = "fabricaTelas-tvOS"
-            ReferencedContainer = "container:fabricaTelas.xcodeproj">
+            BuildableName = "Cashlog-tvOS.app"
+            BlueprintName = "Cashlog-tvOS"
+            ReferencedContainer = "container:Cashlog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "fabricaTelas-tvOS.app"
-            BlueprintName = "fabricaTelas-tvOS"
-            ReferencedContainer = "container:fabricaTelas.xcodeproj">
+            BuildableName = "Cashlog-tvOS.app"
+            BlueprintName = "Cashlog-tvOS"
+            ReferencedContainer = "container:Cashlog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
