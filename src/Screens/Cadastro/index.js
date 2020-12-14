@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useContext } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { Container, InputArea, CustomButton, CustomButtonText, SignMessageButton, SignMessageButtonText, SignMessageButtonTextBold } from './styles';
 
@@ -6,17 +6,46 @@ import { Container, InputArea, CustomButton, CustomButtonText, SignMessageButton
 // Se quiser colocar alguma imagem:
 //<CashlogLogo width="100%" height="160" />
 
-import SignInput from '../../Components/LoginInput'
-import LoginInput from '../../Components/LoginInput';
+import CadastroInput from '../../Components/CadastroInput';
+import API from '../../API';
+import AsyncStorage from '@react-native-community/async-storage';
+import { UserContext } from '../../Contexts/UserContext';
 
 export default () => {
 
-    const navigation = useNavigation();
+    const[emailField, setEmailField] = useState('');
+    const[senhaField, setSenhaField] = useState('');
+    const[confirmarSenhaField, setConfirmarSenhaField] = useState('');
+    const[cpfField, setCpfField] = useState('');
 
-    const handleLoginClick = () => {
-        navigation.reset({
-            routes: [{name: 'Login'}]
-        });
+    const navigation = useNavigation();
+    const { dispatch: userDispatch} = useContext(UserContext);
+
+    const handleLoginClick = async () => {
+        if (emailField !='' && senhaField !='' && confirmarSenhaField !='' && cpfField !='') {
+            let res = await API.cadastro(emailField, senhaField, confirmarSenhaField, cpfField);
+            if(res.token) {
+                await AsyncStorage.setItem('token', res.token);
+
+                userDispatch({
+                    type: 'setEmail, setSenha, setConfirmarSenha, setCpf',
+                    payload:{
+                        email: res.data.email,
+                        senha: res.data.senha,
+                        confirmarSenha: res.data.confirmarSenha,
+                        cpf: res.data.cpf
+                    }
+                });
+
+                navigation.reset({
+                    routes: [{name: 'Login'}]
+                });
+            } else {
+                alert("Email ou senha errados");
+            }
+        } else {
+            alert("Preencha os Campos!");
+        }
     }
 
     const handleMessageButtonClick = () => {
@@ -30,10 +59,10 @@ export default () => {
 
 
             <InputArea>
-                <LoginInput placeholder="Digite seu Email" />
-                <LoginInput placeholder="Digite sua Senha" />
-                <LoginInput placeholder="Confirme sua Senha" />
-                <LoginInput placeholder="Digite seu CPF" />
+                <CadastroInput placeholder="Digite seu Email" />
+                <CadastroInput placeholder="Digite sua Senha" />
+                <CadastroInput placeholder="Confirme sua Senha" />
+                <CadastroInput placeholder="Digite seu CPF" />
 
 
                 <CustomButton onPress={handleMessageButtonClick}>
