@@ -1,0 +1,12 @@
+D:\Faculdade\cash-log-velho\cash-log-master\server\CashLogLib\bin\Debug\netstandard2.0\CashLogLib.deps.json
+D:\Faculdade\cash-log-velho\cash-log-master\server\CashLogLib\bin\Debug\netstandard2.0\CashLogLib.dll
+D:\Faculdade\cash-log-velho\cash-log-master\server\CashLogLib\bin\Debug\netstandard2.0\CashLogLib.pdb
+D:\Faculdade\cash-log-velho\cash-log-master\server\CashLogLib\bin\Debug\netstandard2.0\LazyDevUtils.dll
+D:\Faculdade\cash-log-velho\cash-log-master\server\CashLogLib\bin\Debug\netstandard2.0\LazyDevUtils.pdb
+D:\Faculdade\cash-log-velho\cash-log-master\server\CashLogLib\obj\Debug\netstandard2.0\CashLogLib.vbprojAssemblyReference.cache
+D:\Faculdade\cash-log-velho\cash-log-master\server\CashLogLib\obj\Debug\netstandard2.0\CashLogLib.AssemblyInfoInputs.cache
+D:\Faculdade\cash-log-velho\cash-log-master\server\CashLogLib\obj\Debug\netstandard2.0\CashLogLib.AssemblyInfo.vb
+D:\Faculdade\cash-log-velho\cash-log-master\server\CashLogLib\obj\Debug\netstandard2.0\CashLogLib.vbproj.CoreCompileInputs.cache
+D:\Faculdade\cash-log-velho\cash-log-master\server\CashLogLib\obj\Debug\netstandard2.0\CashLogLib.vbproj.CopyComplete
+D:\Faculdade\cash-log-velho\cash-log-master\server\CashLogLib\obj\Debug\netstandard2.0\CashLogLib.dll
+D:\Faculdade\cash-log-velho\cash-log-master\server\CashLogLib\obj\Debug\netstandard2.0\CashLogLib.pdb

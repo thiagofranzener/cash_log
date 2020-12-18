@@ -1,0 +1,9 @@
+D:\Faculdade\cash-log-velho\cash-log-master\server\LazyDevUtils\bin\Debug\netstandard2.0\LazyDevUtils.deps.json
+D:\Faculdade\cash-log-velho\cash-log-master\server\LazyDevUtils\bin\Debug\netstandard2.0\LazyDevUtils.dll
+D:\Faculdade\cash-log-velho\cash-log-master\server\LazyDevUtils\bin\Debug\netstandard2.0\LazyDevUtils.pdb
+D:\Faculdade\cash-log-velho\cash-log-master\server\LazyDevUtils\obj\Debug\netstandard2.0\LazyDevUtils.vbprojAssemblyReference.cache
+D:\Faculdade\cash-log-velho\cash-log-master\server\LazyDevUtils\obj\Debug\netstandard2.0\LazyDevUtils.AssemblyInfoInputs.cache
+D:\Faculdade\cash-log-velho\cash-log-master\server\LazyDevUtils\obj\Debug\netstandard2.0\LazyDevUtils.AssemblyInfo.vb
+D:\Faculdade\cash-log-velho\cash-log-master\server\LazyDevUtils\obj\Debug\netstandard2.0\LazyDevUtils.vbproj.CoreCompileInputs.cache
+D:\Faculdade\cash-log-velho\cash-log-master\server\LazyDevUtils\obj\Debug\netstandard2.0\LazyDevUtils.dll
+D:\Faculdade\cash-log-velho\cash-log-master\server\LazyDevUtils\obj\Debug\netstandard2.0\LazyDevUtils.pdb

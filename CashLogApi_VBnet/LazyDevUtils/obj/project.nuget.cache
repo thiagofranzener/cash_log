@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mlUGB/NvmeYtcgY+iLtdKYjaVkqMY8z7oz+cBKzv8hVjwtjsouXKfUE9S33ExtC8Ln+zkJczTz9fOmsih+aM5g==",
+  "success": true,
+  "projectFilePath": "D:\\Faculdade\\cash-log-velho\\cash-log-master\\server\\LazyDevUtils\\LazyDevUtils.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thiag\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\thiag\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
